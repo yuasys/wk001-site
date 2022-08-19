@@ -1,0 +1,27 @@
+body {
+  font: 22px/1.2 serif;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.wrapper {
+  column-count: 1;
+  column-rule: solid 1px #ccc;
+  column-gap: 2.5rem;
+  width: 100vw;
+  height: 26rem;
+  margin-right: 4rem;
+  
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* 字下げ */
+p {
+  margin-left: 1rem;
+  text-indent: 0rem;
+}
+.text-footer {
+/*   background-color:#eee; */
+  margin-top:2rem;
+  margin-right:2rem;
+}
