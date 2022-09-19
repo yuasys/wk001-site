@@ -13,7 +13,7 @@ body {
   column-rule: solid 1px #ccc;
   column-gap: 2.5rem;
   width: 100vw;
-  height: 26rem;
+  height: 30rem; /* 一行の高さ（縦書きの場合） */
   margin-right: 4rem;
   
   padding: 30px;
