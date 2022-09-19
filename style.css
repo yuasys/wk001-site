@@ -1,7 +1,12 @@
 /* css reset */ 
-*,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
-
-
+*,*::before,*::after{box-sizing:border-box}
+*{margin:0}
+html,body{height:100%}
+body{line-height:1.5;-webkit-font-smoothing:antialiased}
+img,picture,video,canvas,svg{display:block;max-width:100%}
+input,button,textarea,select{font:inherit}
+p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}
+#root,#__next{isolation:isolate}
 
 body {
   font: 22px/1.2 serif;
@@ -13,7 +18,7 @@ body {
   column-rule: solid 1px #ccc;
   column-gap: 2.5rem;
   width: 100vw;
-  height: 36rem; /* 一行の高さ（縦書きの場合） */
+  height: 32rem; /* 一行の高さ（縦書きの場合） */
   margin-right: 4rem;
   
   padding: 30px;
